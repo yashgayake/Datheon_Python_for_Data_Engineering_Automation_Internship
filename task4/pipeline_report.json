@@ -1,0 +1,9 @@
+{
+  "started_at": "2026-10-21T22:46:41.476167+05:30",
+  "status": "FAILED",
+  "extracted_records": 100,
+  "transformed_records": 0,
+  "database_records": 0,
+  "error": "RuntimeError: generate_dirty_data.py failed:\nDirty dataset created: C:\\Users\\SHINDE\\OneDrive\\Desktop\\Datheon_Python_for_Data_Engineering_Automation_Internship\\task2\\dirty_sales.csv\nTotal rows: 12\n\nSample data:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\SHINDE\\OneDrive\\Desktop\\Datheon_Python_for_Data_Engineering_Automation_Internship\\task2\\generate_dirty_data.py\", line 29, in <module>\n    print(df.head())\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\SHINDE\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u20b9' in position 75: character maps to <undefined>\n",
+  "finished_at": "2026-10-21T22:47:00.652541+05:30"
+}

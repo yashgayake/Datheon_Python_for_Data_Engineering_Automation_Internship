@@ -1,0 +1,13 @@
+﻿order_id,customer,amount,order_date,city
+101, Rahul ,"₹1,200.00",21/10/2026,Pune
+102,PRIYA,Rs. 850,2026-10-20,Mumbai
+103,,500,19-10-2026,Pune
+104,Amit,,2026/10/18,Nashik
+105,Sneha,"₹2,400",invalid-date,Pune
+106,Rahul,1200,21/10/2026,Pune
+107, neha ,Rs 750.50,17/10/2026,Nagpur
+108,Karan,-200,16/10/2026,Mumbai
+109,Meera,"1,000",15/10/2026,Pune
+110,Vijay,₹0,14/10/2026,Aurangabad
+111,Priya,850,2026-10-20,Mumbai
+112,Arjun,"₹3,250.75",13/10/2026,

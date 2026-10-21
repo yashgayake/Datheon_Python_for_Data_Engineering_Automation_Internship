@@ -1,0 +1,30 @@
+2026-10-21 22:46:41,476 | INFO | =======================================================
+2026-10-21 22:46:41,477 | INFO | ETL PIPELINE STARTED AT 2026-10-21T22:46:41.476167+05:30
+2026-10-21 22:46:41,477 | INFO | STEP 1: Extraction started
+2026-10-21 22:46:59,412 | INFO | Extracted 100 book records
+2026-10-21 22:46:59,415 | INFO | STEP 2: Transformation started
+2026-10-21 22:47:00,649 | ERROR | ETL PIPELINE FAILED
+Traceback (most recent call last):
+  File "c:\Users\SHINDE\OneDrive\Desktop\Datheon_Python_for_Data_Engineering_Automation_Internship\task4\pipeline.py", line 228, in run_pipeline
+    report["transformed_records"] = transform()
+                                    ~~~~~~~~~^^
+  File "c:\Users\SHINDE\OneDrive\Desktop\Datheon_Python_for_Data_Engineering_Automation_Internship\task4\pipeline.py", line 130, in transform
+    raise RuntimeError(
+        f"{script.name} failed:\n{result.stdout}\n{result.stderr}"
+    )
+RuntimeError: generate_dirty_data.py failed:
+Dirty dataset created: C:\Users\SHINDE\OneDrive\Desktop\Datheon_Python_for_Data_Engineering_Automation_Internship\task2\dirty_sales.csv
+Total rows: 12
+
+Sample data:
+
+Traceback (most recent call last):
+  File "C:\Users\SHINDE\OneDrive\Desktop\Datheon_Python_for_Data_Engineering_Automation_Internship\task2\generate_dirty_data.py", line 29, in <module>
+    print(df.head())
+    ~~~~~^^^^^^^^^^^
+  File "C:\Users\SHINDE\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 75: character maps to <undefined>
+
+2026-10-21 22:47:00,654 | INFO | Report saved to C:\Users\SHINDE\OneDrive\Desktop\Datheon_Python_for_Data_Engineering_Automation_Internship\task4\pipeline_report.json
